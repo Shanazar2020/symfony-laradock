@@ -1,0 +1,3 @@
+zcat docker-entrypoint-initdb.d/bk_lcms_devapi.sql.gz | mysql -u root -p bk_lcms_devapi
+
+localhost >>>> mysql
